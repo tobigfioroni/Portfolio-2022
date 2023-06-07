@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tobigfioroni</title>
+    <link rel="stylesheet" href="./tailwind/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      href="https://i.pinimg.com/originals/d2/8d/dd/d28dddbe7efb08927e3612c06cfbed6e.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/db11315eb0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body
+    class="bg-[#222831] text-[#EAEAEA]"
+  >
+    <nav
+      class="flex flex-wrap items-center justify-between w-full py-3 md:py-0 px-4 text-lg text-white bg-[#222831] sticky top-0 bg-opacity-[65%] backdrop-blur-sm z-20 xl:px-[210px] lg:px-[90px]"
+    >
+      <div class="backdrop-filter">
+        <a href="home.html" class="font-signika hover:text-orange-300 ml-[8px]">
+          Tobias Fioroni
+        </a>
+      </div>
+      <div
+        class="border rounded p-1 mb-2 border-[#FFD460] md:border-none mr-[7px]"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          id="menu-button"
+          class="h-6 w-6 cursor-pointer md:hidden block"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </div>
+      <div
+        class="hidden w-full md:flex md:z-auto md:items-center md:w-auto transition-max-height duration-500 ease-in-out"
+        id="menu"
+      >
+        <ul
+          class="pt-4 text-base text-white md:flex md:justify-between md:pt-0"
+        >
+          <li>
+            <a
+              class="md:p-4 py-2 block hover:text-[#FFD460] hover:decoration-solid hover:underline hover:animate-pulse"
+              href="home.html"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="md:p-4 py-2 block hover:text-[#FFD460] hover:decoration-solid hover:underline hover:animate-pulse"
+              href="sections/blog.html"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a
+              class="md:p-4 py-2 block hover:text-[#FFD460] hover:decoration-solid hover:underline hover:animate-pulse"
+              href="sections/works.html"
+              >Works</a
+            >
+          </li>
+          <li>
+            <a
+              class="md:p-4 py-2 block hover:text-[#FFD460] hover:decoration-solid hover:underline hover:animate-pulse"
+              href="sections/hire.html"
+              >Hire</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container_space sm:mx-[120px] md:mx-[100px] lg:mx-[200px] 2xl:mx-[150px] xl:mx-[350px]">
+      <header id="home-section">
+        <div class="text-center mt-[60px] mb-[50px]">
+          <h1
+            class="font-extrabold mt-7 text-[31px] font-signika tracking-wide text-[#F6F6F6] lg:text-[34px]"
+          >
+            Tobias Gabriel Fioroni
+          </h1>
+          <p class="mt-1 lg:mt-0 lg:text-[17px]">
+            <span class="underline decoration-[#FFD460] decoration-solid"
+              >Digital field</span
+            >
+            ( Full Stack Junior Developer👨‍💻 /<br />
+            UX/UI Designer🎨 )
+          </p>
+          <div
+            class="flex justify-center items-center mt-[40px]"
+          >
+            <img
+              src="models/profile-img.jpg"
+              alt="profile-image"
+              class="w-[100px] h-[100px] rounded-full bg-cover border-2"
+            />
+          </div>
+        </div>
+      </header>
+      <main class="mx-[27px]">
+        <section
+          class="mt-[70px] sm:mt-[100px] lg:mt-[5px] md:mt-[40px] xl:mt-[1px] 2xl:mt-[1px]"
+        >
+          <h2 id="works-section" class="font-bold">About💼</h2>
+          <div class="w-[63px] bg-white bg-opacity-[10%] h-1"></div>
+          <div class="mt-3">
+            <p class="leading-relaxed text-justify indent-7 break-words">
+              👨‍💻 I'm a junior full stack web developer based in Argentina and I
+              have a great passion for creating digital services for anyone who
+              needs them. I'm currently 18 years old and studying at the
+              university while working as a freelancer, developing websites,
+              mobile applications, and software. I'm passionate about learning
+              more every day 📚.
+            </p>
+            <p class="leading-relaxed text-justify indent-7 break-words">
+              I enjoy traveling ✈️,
+              <span
+                class="text-[#FFD460] hover:underline hover:decoration-solid"
+                ><a href="#">photography</a></span
+              >
+              📷, art 🎨, exercising 🏋️‍♂️,
+              <span
+                class="text-[#FFD460] hover:underline hover:decoration-solid"
+                ><a href="#">programming</a></span
+              >
+              💻, music 🎵, video games 🎮, and reading 📖.
+            </p>
+          </div>
+          <div class="flex justify-center items-center mt-7 mb-9">
+            <button
+              class="bg-[#fff] bg-opacity-[11%] px-5 py-2 rounded-md ring-1 hover:ring-4 ring-[#fff] ring-opacity-[11%] transition duration-500"
+            >
+              <a
+                href="sections/works.html"
+                class="text-white font-normal transition duration-500"
+                >My projects<span class="ml-3">💻</span></a
+              >
+            </button>
+          </div>
+        </section>
+        <section class="mt-16">
+          <h2 id="knowledge-section" class="font-bold">Knowledge🧠</h2>
+          <div class="w-[98px] bg-white bg-opacity-[10%] h-1"></div>
+          <section class="mt-10">
+            <div
+              class="icons_knowledge flex flex-wrap md:flex-nowrap justify-center items-center"
+            >
+              <div class="md:w-[200px] sm:w-[40px] mx-2">
+                <img
+                  class="sm:object-cover"
+                  src="models/icons/html.webp"
+                  alt="Tailwind"
+                />
+              </div>
+              <div class="md:w-[200px] sm:w-[40px] mx-2">
+                <img
+                  class="sm:object-cover"
+                  src="models/icons/css.webp"
+                  alt="Tailwind"
+                />
+              </div>
+              <div class="md:w-[200px] sm:w-[40px] mx-2">
+                <img
+                  class="sm:object-cover"
+                  src="models/icons/tailwind.webp"
+                  alt="Tailwind"
+                  width="42px"
+                />
+              </div>
+              <div class="md:w-[200px] sm:w-[40px] mx-2">
+                <img
+                  class="sm:object-cover"
+                  src="models/icons/javascript.webp"
+                  alt="Tailwind"
+                />
+              </div>
+              <div class="md:w-[200px] sm:w-[40px] mx-2">
+                <img
+                  class="sm:object-cover"
+                  src="models/icons/react.webp"
+                  alt="Tailwind"
+                />
+              </div>
+              <div class="md:w-[200px] sm:w-[40px] mx-2">
+                <img
+                  class="sm:object-cover"
+                  src="models/icons/python.webp"
+                  alt="Tailwind"
+                />
+              </div>
+              <div class="md:w-[200px] sm:w-[40px] mx-2">
+                <img
+                  class="sm:object-cover"
+                  src="models/icons/csharp.webp"
+                  alt="Tailwind"
+                />
+              </div>
+              <div class="md:w-[200px] sm:w-[40px] mx-2">
+                <img
+                  class="sm:object-cover"
+                  src="models/icons/typescript.webp"
+                  alt="Tailwind"
+                />
+              </div>
+              <div class="md:w-[200px] sm:w-[40px] mx-2">
+                <img
+                  class="sm:object-cover"
+                  src="models/icons/mysql.webp"
+                  alt="Tailwind"
+                />
+              </div>
+              <div class="md:w-[200px] sm:w-[40px] mx-2">
+                <img
+                  class="sm_object-cover"
+                  src="models/icons/mongodb.webp"
+                  alt="Tailwind"
+                />
+              </div>
+              <div class="md:w-[200px] sm:w-[40px] mx-2">
+                <img
+                  class="sm:object-cover"
+                  src="models/icons/unity.webp"
+                  alt="Tailwind"
+                />
+              </div>
+              <div class="md:w-[200px] sm:w-[40px] mx-2">
+                <img
+                  class="sm:object-cover"
+                  src="models/icons/figma.webp"
+                  alt="Tailwind"
+                />
+              </div>
+            </div>
+            <div class="mt-[20px]"></div>
+          </section>
+          <section class="mt-14">
+            <h2 id="networks-section" class="font-bold">Networks📱</h2>
+            <div class="w-[73px] bg-white bg-opacity-[10%] h-1"></div>
+            <div
+              class="flex justify-center items-center mt-6 transition duration-500"
+            >
+              <button class="w-14 text-center px-2 my-2">
+                <a href="https://wa.me/5491128477145" target="_blank">
+                  <i
+                    class="fa-brands fa-whatsapp fa-2x text-[#00bb2d] hover:text-[#00bb2c80] transition duration-500 hover:animate-pulse"
+                  ></i>
+                </a>
+              </button>
+              <button class="w-14 text-center px-2 my-2">
+                <a
+                  href="https://www.linkedin.com/in/tobias-fioroni-411194276/"
+                  target="_blank"
+                >
+                  <i
+                    class="fa-brands fa-linkedin fa-2x text-[#0077B5] hover:text-[#4267b272] transition duration-500 hover:animate-pulse"
+                  ></i>
+                </a>
+              </button>
+              <button class="w-14 text-center px-2 my-2">
+                <a
+                  href="https://www.instagram.com/tobigfioroni/?hl=es-la"
+                  target="_blank"
+                >
+                  <i
+                    class="fa-brands fa-instagram fa-2x text-[#bc2a8d] hover:text-[#bc2a8d] transition duration-500 hover:animate-pulse"
+                  ></i>
+                </a>
+              </button>
+              <button class="w-14 text-center px-2 my-2">
+                <a href="https://github.com/tobigfioroni" target="_blank">
+                  <i
+                    class="fa-brands fa-github fa-2x text-[#ffff] hover:text-[#ffffff69] transition duration-500 hover:animate-pulse"
+                  ></i>
+                </a>
+              </button>
+              <button class="w-14 text-center px-2 my-2">
+                <a href="#">
+                  <i
+                    class="fa-brands fa-twitter fa-2x text-[#1DA1F2] hover:text-[#1da0f287] transition duration-500 hover:animate-pulse"
+                  ></i>
+                </a>
+              </button>
+              <button class="w-14 text-center px-2 my-2">
+                <a href="mailto:tobigfioroni@gmail.com" target="_blank">
+                  <i
+                    class="fa-solid fa-envelope fa-2x text-[#EA4335] hover:text-[#ea44356c] transition duration-500 hover:animate-pulse"
+                  ></i>
+                </a>
+              </button>
+              <button class="w-14 text-center px-2 my-2">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100077370595163"
+                  target="_blank"
+                >
+                  <i
+                    class="fa-brands fa-facebook fa-2x text-[#0077B5] hover:text-[#4267b272] transition duration-500 hover:animate-pulse"
+                  ></i>
+                </a>
+              </button>
+            </div>
+          </section>
+          <div class="flex justify-center items-center mt-7 mb-9">
+            <button
+              class="bg-[#fff] bg-opacity-[11%] px-5 py-2 rounded-md ring-1 hover:ring-4 ring-[#fff] ring-opacity-[11%] transition duration-500"
+            >
+              <a
+                href="sections/hire.html"
+                class="text-white font-normal transition duration-500"
+                >Hire me<span class="ml-3">📲</span></a
+              >
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer class="flex justify-center items-center text-gray-400 opacity-60">
+        <p class="my-12">© 2022 Tobias Fioroni. All Rights Reserved.</p>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+<!-- Web Portafolio Tobias Fioroni -->
